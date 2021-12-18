@@ -1,4 +1,18 @@
+# NN Nude Net Fork
+> Fork of NudeNet for TFJS
+
+```
+  const opts = {
+    outputPath: 'detected-image.jpg'
+  }
+  const net = new NNNudeNet(opts)
+  await net.load()
+  const pred = await net.predict('sample-image.jpg')
+```
+
+
 # NudeNet: NSFW Object Detection for TFJS and NodeJS
+https://github.com/vladmandic/nudenet
 
 ## Notes
 
@@ -62,12 +76,6 @@ const labels = [ // class labels
 <br>
 
 ## Example
-
-![Example Image](samples/nude-out.jpg)
-
-<br>
-
-> node nudenet.js samples/nude.jpg samples/nude-out.jpg
 
 ```js
 2021-10-20 11:11:11 INFO:  nudenet version 0.0.1

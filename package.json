@@ -1,28 +1,14 @@
 {
   "name": "nudenet",
   "version": "0.1.0",
-  "description": "NudeNet: NSFW Object Detection for TFJS and NodeJS",
-  "main": "nudenet.js",
+  "description": "NodeJS library based on NudeNet.",
+  "type": "module",
+  "main": "index.js",
   "scripts": {
-    "start": "node nudenet.js samples/nude.jpg samples/nude-out.jpg",
     "lint": "eslint *.js"
   },
-  "engines": {
-    "node": ">=12.0.0"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/vladmandic/nudenet.git"
-  },
-  "author": "Vladimir Mandic <mandic00@live.com>",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/vladmandic/nudenet/issues"
-  },
-  "homepage": "https://github.com/vladmandic/nudenet#readme",
   "dependencies": {
-    "@tensorflow/tfjs-node": "^3.12.0",
-    "@vladmandic/pilogger": "^0.3.5",
+    "@tensorflow/tfjs-node": "^3.13.0",
     "canvas": "^2.8.0"
   },
   "devDependencies": {
